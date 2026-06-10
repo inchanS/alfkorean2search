@@ -18,9 +18,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba2f50e-3af8-48b7-abc9-c665ee14425f" name="변경" comment="feat: update Alfred workflow for 표준국어대사전 integration  &#10;- 표준국어대사전 OpenAPI를 활용하도록 워크플로우 수정 완료  &#10;- 동음이의어 및 뜻풀이 처리를 위한 파싱 로직 추가  &#10;- API_KEY 환경 변수 지원 및 관련 안내 메시지 구현  &#10;- UI 및 검색 결과 링크 동작 개선  &#10;- 기존 워크플로우와의 충돌을 방지하도록 번들 ID, 키워드 등 변경">
+    <list default="true" id="aba2f50e-3af8-48b7-abc9-c665ee14425f" name="변경" comment="fix: update workflow filename in make.sh  &#10;- 워크플로우 파일 이름을 'AlfKorean2Search.alfredworkflow'로 수정 완료  &#10;- 파일 압축 단계에서의 이름 변경 반영">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflow/test_workflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/test_workflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make.sh" beforeDir="false" afterPath="$PROJECT_DIR$/make.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,23 +86,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7721200497887188" />
-      <entry key="MS500" value="3.437757518652373" />
-      <entry key="S2" value="5.061942604739788" />
-      <entry key="S5" value="5.590985673533216" />
-      <entry key="S10" value="5.789547343770325" />
-      <entry key="S30" value="6.256964901418685" />
-      <entry key="S60" value="8.350099000488616" />
-      <entry key="M2" value="14.298810813202147" />
-      <entry key="M5" value="28.51977349691048" />
-      <entry key="M10" value="41.151336292821966" />
-      <entry key="M15" value="52.51668539743815" />
-      <entry key="M30" value="87.31109384437238" />
-      <entry key="H1" value="132.60847281332582" />
-      <entry key="H2" value="170.82000146127038" />
-      <entry key="H4" value="195.866126028167" />
-      <entry key="D1" value="220.58144044098873" />
-      <entry key="W1" value="225.21560120457008" />
+      <entry key="MS100" value="1.0009565323662828" />
+      <entry key="MS500" value="1.3681171008950084" />
+      <entry key="S2" value="4.141530684347563" />
+      <entry key="S5" value="6.443749241700852" />
+      <entry key="S10" value="7.5880648241992485" />
+      <entry key="S30" value="8.80464840394795" />
+      <entry key="S60" value="11.056902581676031" />
+      <entry key="M2" value="17.05990849361725" />
+      <entry key="M5" value="31.336156035176142" />
+      <entry key="M10" value="44.02041240346019" />
+      <entry key="M15" value="55.40596755034279" />
+      <entry key="M30" value="90.21988353008307" />
+      <entry key="H1" value="135.5395316883625" />
+      <entry key="H2" value="173.77568737388623" />
+      <entry key="H4" value="198.84074278628447" />
+      <entry key="D1" value="223.57667928204498" />
+      <entry key="W1" value="228.21490682557962" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -123,23 +124,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5661490522065171" />
-      <entry key="MS500" value="3.332808642904598" />
-      <entry key="S2" value="5.0241340310398925" />
-      <entry key="S5" value="5.574451805996469" />
-      <entry key="S10" value="5.781019469462846" />
-      <entry key="S30" value="6.25401720984041" />
-      <entry key="S60" value="8.348466083332656" />
-      <entry key="M2" value="14.297731141212873" />
-      <entry key="M5" value="28.519039768985163" />
-      <entry key="M10" value="41.15081540637652" />
-      <entry key="M15" value="52.51624064738182" />
-      <entry key="M30" value="87.31071791215493" />
-      <entry key="H1" value="132.6081826088497" />
-      <entry key="H2" value="170.8198126430343" />
-      <entry key="H4" value="195.8660171834195" />
-      <entry key="D1" value="220.58141991433527" />
-      <entry key="W1" value="225.2155982081156" />
+      <entry key="MS100" value="0.7854827413861221" />
+      <entry key="MS500" value="1.3047464153146415" />
+      <entry key="S2" value="4.0758998938806785" />
+      <entry key="S5" value="6.401678240272416" />
+      <entry key="S10" value="7.563219610949589" />
+      <entry key="S30" value="8.795332743753429" />
+      <entry key="S60" value="11.05196312221278" />
+      <entry key="M2" value="17.057145817618313" />
+      <entry key="M5" value="31.334741798326522" />
+      <entry key="M10" value="44.01954973649385" />
+      <entry key="M15" value="55.40529459612466" />
+      <entry key="M30" value="90.21939332790393" />
+      <entry key="H1" value="135.5391842804792" />
+      <entry key="H2" value="173.77546992176454" />
+      <entry key="H4" value="198.84061961277715" />
+      <entry key="D1" value="223.57665636515833" />
+      <entry key="W1" value="228.21490348760435" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -259,7 +260,7 @@
       <workItem from="1749240552914" duration="336000" />
       <workItem from="1749241510500" duration="7000" />
       <workItem from="1781063239570" duration="4648000" />
-      <workItem from="1781068390741" duration="232000" />
+      <workItem from="1781068390741" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="Add original repository as submodule to preserve history">
       <option name="closed" value="true" />
@@ -613,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781068265543</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="test: update unit tests for 표준국어대사전 API integration  &#10;- 표준국어대사전 OpenAPI JSON 구조에 맞게 모의(mock) 데이터 수정 완료  &#10;- get_data 호출 테스트 시 가짜 API 키(dummy_api_key) 추가  &#10;- parse_suggestions 함수에 맞게 테스트 데이터 처리 방식 변경  &#10;- List[Dict] 반환값 검증 로직 개선 및 테스트 케이스 추가">
+      <option name="closed" value="true" />
+      <created>1781068657638</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1781068657638</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: search naver finance(stock)" />
     <MESSAGE value="test: search naver finance(stock)" />
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="fix: naver_finance.py API url" />
@@ -673,7 +681,8 @@
     <MESSAGE value="doc: modify Readme.md" />
     <MESSAGE value="Update workflow for Standard Korean Dictionary integration" />
     <MESSAGE value="feat: update Alfred workflow for 표준국어대사전 integration  &#10;- 표준국어대사전 OpenAPI를 활용하도록 워크플로우 수정 완료  &#10;- 동음이의어 및 뜻풀이 처리를 위한 파싱 로직 추가  &#10;- API_KEY 환경 변수 지원 및 관련 안내 메시지 구현  &#10;- UI 및 검색 결과 링크 동작 개선  &#10;- 기존 워크플로우와의 충돌을 방지하도록 번들 ID, 키워드 등 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update Alfred workflow for 표준국어대사전 integration  &#10;- 표준국어대사전 OpenAPI를 활용하도록 워크플로우 수정 완료  &#10;- 동음이의어 및 뜻풀이 처리를 위한 파싱 로직 추가  &#10;- API_KEY 환경 변수 지원 및 관련 안내 메시지 구현  &#10;- UI 및 검색 결과 링크 동작 개선  &#10;- 기존 워크플로우와의 충돌을 방지하도록 번들 ID, 키워드 등 변경" />
+    <MESSAGE value="test: update unit tests for 표준국어대사전 API integration  &#10;- 표준국어대사전 OpenAPI JSON 구조에 맞게 모의(mock) 데이터 수정 완료  &#10;- get_data 호출 테스트 시 가짜 API 키(dummy_api_key) 추가  &#10;- parse_suggestions 함수에 맞게 테스트 데이터 처리 방식 변경  &#10;- List[Dict] 반환값 검증 로직 개선 및 테스트 케이스 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: update unit tests for 표준국어대사전 API integration  &#10;- 표준국어대사전 OpenAPI JSON 구조에 맞게 모의(mock) 데이터 수정 완료  &#10;- get_data 호출 테스트 시 가짜 API 키(dummy_api_key) 추가  &#10;- parse_suggestions 함수에 맞게 테스트 데이터 처리 방식 변경  &#10;- List[Dict] 반환값 검증 로직 개선 및 테스트 케이스 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
