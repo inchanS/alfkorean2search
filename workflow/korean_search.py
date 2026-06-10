@@ -101,7 +101,7 @@ def main(wf: Workflow) -> None:
         res_json = wf.cached_data('stdict_%s' % args, wrapper, max_age=3600)
     except Exception as e:
         wf.add_item(
-            title="API 요청 중 오류가 발생했습니다.",
+            title="API 요청 중 오류가 발생했습니다. 사전에 없는 검색어일 수 있습니다.",
             subtitle=str(e),
             valid=False
         )
