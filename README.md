@@ -8,7 +8,11 @@
 Korean Search2 Workflow for Alfred
 ---------------------------------
 
-Alfred에서 [국립국어원 표준국어대사전](https://stdict.korean.go.kr/main/main.do) 검색어 자동완성 워크플로우
+Alfred에서 [국립국어원 표준국어대사전](https://stdict.korean.go.kr/main/main.do) 검색 목록 워크플로우  
+
+주의! 검색어 자동완성 기능이 아닙니다.  
+Alfred에서 해당 웹사이트에 있는 검색어와 그 뜻을 보여줍니다.  
+목록에서 `enter`를 누르면 해당 검색어의 url로 연결됩니다.  
 
 <br>
 
@@ -22,7 +26,12 @@ https://stdict.korean.go.kr/openapi/openApiInfo.do
 **필수 준비사항 - API key**  
 [오픈 API 사용 신청 | 국립국어원 표준국어대사전](https://stdict.korean.go.kr/openapi/openApiRegister.do)에서 API key를 발급받아야 정상적으로 이용할 수 있습니다.  
 
+<br>  
+
 --------
+## Preview
+
+![SCR-20260610-ncnh.jpeg](images/SCR-20260610-ncnh.jpeg)  
 
 <br>  
 
