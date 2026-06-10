@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="Avoid overly wordy descriptions or unnecessary details.&#10;The first line should follow the Angular Git Commit guidelines and be written in English.&#10;&#10;Angular Git Commit guidlines Type Must be one of the following:&#10;feat: A new feature&#10;fix: A bug fix&#10;docs: Documentation only changes&#10;style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)&#10;refactor: A code change that neither fixes a bug nor adds a feature&#10;perf: A code change that improves performance&#10;test: Adding missing or correcting existing tests&#10;chore: Changes to the build process or auxiliary tools and libraries such as documentation generation&#10;&#10;From the second line onwards, use hyphens to list your changes briefly and write these descriptions in Korean.&#10;The first line is in English, and the subsequent lines are in Korean.&#10;And Korean commit messages should be written in the completed form and should succinctly state the change.&#10;&#10;An example statement might look like this&#10;&#10;feat: add CLI support&#10; - 마크다운 읽기/쓰기 함수 추가하여 코드 구조 개선 완료&#10; - 복사본 생성 기능 추가 (원본 보존)&#10; &#10;" />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aba2f50e-3af8-48b7-abc9-c665ee14425f" name="변경" comment="doc: modify Readme.md">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alfred-pyworkflow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SCR-20260610-lszu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/ED7ADA66-8BF2-4877-A51A-71B5F004E305.png" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/ED7ADA66-8BF2-4877-A51A-71B5F004E305.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow/korean_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/workflow/korean_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,23 +88,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000378038611977" />
-      <entry key="S2" value="1.120229984202488" />
-      <entry key="S5" value="2.3059856668415666" />
-      <entry key="S10" value="6.194277813003311" />
-      <entry key="S30" value="24.20500644217476" />
-      <entry key="S60" value="44.48017889423219" />
-      <entry key="M2" value="69.52543806440865" />
-      <entry key="M5" value="104.36826411610872" />
-      <entry key="M10" value="126.2055863756385" />
-      <entry key="M15" value="135.9794253923309" />
-      <entry key="M30" value="147.67605623237677" />
-      <entry key="H1" value="154.4533299622963" />
-      <entry key="H2" value="158.1220859152882" />
-      <entry key="H4" value="160.03374623327366" />
-      <entry key="D1" value="161.66839689118112" />
-      <entry key="W1" value="161.9525313817819" />
+      <entry key="MS100" value="2.159310466189029" />
+      <entry key="MS500" value="4.272331957255317" />
+      <entry key="S2" value="7.541232228478533" />
+      <entry key="S5" value="10.192406833358259" />
+      <entry key="S10" value="11.76171088107551" />
+      <entry key="S30" value="13.247142989406877" />
+      <entry key="S60" value="15.150370589970077" />
+      <entry key="M2" value="20.956908956507405" />
+      <entry key="M5" value="32.60248402379983" />
+      <entry key="M10" value="42.29218914414613" />
+      <entry key="M15" value="52.619539255109615" />
+      <entry key="M30" value="86.47969106396832" />
+      <entry key="H1" value="130.57011350033116" />
+      <entry key="H2" value="167.37869585646195" />
+      <entry key="H4" value="191.33418460390195" />
+      <entry key="D1" value="214.85707699772976" />
+      <entry key="W1" value="219.2558060392647" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -111,23 +126,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9201876506248751" />
-      <entry key="MS500" value="0.9835394159957768" />
-      <entry key="S2" value="1.1157418772082697" />
-      <entry key="S5" value="2.302793960653472" />
-      <entry key="S10" value="6.190327636306358" />
-      <entry key="S30" value="24.200022553851284" />
-      <entry key="S60" value="44.47552542445389" />
-      <entry key="M2" value="69.52166032281524" />
-      <entry key="M5" value="104.3658208185417" />
-      <entry key="M10" value="126.2040251097628" />
-      <entry key="M15" value="135.97827434836168" />
-      <entry key="M30" value="147.67541120477694" />
-      <entry key="H1" value="154.45298646173222" />
-      <entry key="H2" value="158.12190836087913" />
-      <entry key="H4" value="160.0336559272538" />
-      <entry key="D1" value="161.66838162082087" />
-      <entry key="W1" value="161.9525291948353" />
+      <entry key="MS100" value="2.089978167436056" />
+      <entry key="MS500" value="4.241097623032859" />
+      <entry key="S2" value="7.5266894939488" />
+      <entry key="S5" value="10.184350044561697" />
+      <entry key="S10" value="11.757006108446017" />
+      <entry key="S30" value="13.245349316354295" />
+      <entry key="S60" value="15.149268507945008" />
+      <entry key="M2" value="20.956031936954233" />
+      <entry key="M5" value="32.60184634637601" />
+      <entry key="M10" value="42.291738914555545" />
+      <entry key="M15" value="52.619146779278125" />
+      <entry key="M30" value="86.47934324532399" />
+      <entry key="H1" value="130.56983943210074" />
+      <entry key="H2" value="167.37851652290303" />
+      <entry key="H4" value="191.3340810779444" />
+      <entry key="D1" value="214.85705746487864" />
+      <entry key="W1" value="219.25580318783912" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -151,21 +166,21 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/song-inchan/Code/codject/Alfred Workflow/AlfKorean2Search/images",
+    "last_opened_file_path": "/Users/song-inchan/Code/codject/Alfred Workflow/AlfKorean2Search/workflow",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/workflow" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/workflow" />
@@ -246,7 +261,7 @@
       <workItem from="1734852459898" duration="324000" />
       <workItem from="1749240552914" duration="336000" />
       <workItem from="1749241510500" duration="7000" />
-      <workItem from="1781063239570" duration="1357000" />
+      <workItem from="1781063239570" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="Add original repository as submodule to preserve history">
       <option name="closed" value="true" />
@@ -653,6 +668,10 @@
     <MESSAGE value="add: bundleId&#10; 워크플로우 업데이트시, 기존 워크플로우와 별개로 새로 설치되는 문제 해결." />
     <MESSAGE value="doc: modify Readme.md" />
     <option name="LAST_COMMIT_MESSAGE" value="doc: modify Readme.md" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlfNaverSearchPlus$.coverage" NAME=" 커버리지 결과" MODIFIED="1711111447265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/workflow" />

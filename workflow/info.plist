@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.inchans.alfkoreansearch</string>
+	<string>com.inchans.alfkorean2search</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -25,11 +25,11 @@
 	<key>createdby</key>
 	<string>inchans</string>
 	<key>description</key>
-	<string>우리말샘 사이트에서 어휘 찾기</string>
+	<string>표준국어대사전에서 어휘 찾기</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>우리말샘 어휘 찾기</string>
+	<string>국립국어원 표준국어대사전</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -44,7 +44,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://opendict.korean.go.kr/search/searchResult?focus_name_top=query&amp;query={query}</string>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -69,7 +69,7 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>k</string>
+				<string>kk</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -89,7 +89,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>우리말샘에서 어휘 검색... {query}</string>
+				<string>표준국어대사전에서 어휘 검색... {query}</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -104,9 +104,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>우리말샘 사이트 자동완성 워크플로우입니다.
+	<string>대한민국 공식 전자정부 누리집 - 국립국어원 표준국어대사전 자동완성 워크플로우입니다.
 
-우리말샘 사이트의 본 주소는 https://opendict.korean.go.kr 입니다.</string>
+국립국어원 표준국어대사전 사이트의 본 주소는 https://stdict.korean.go.kr/ 입니다.</string>
 	<key>uidata</key>
 	<dict>
 		<key>BC091CE6-E547-49F4-B4DF-3F4FF9FFD098</key>
@@ -126,9 +126,18 @@
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>variables</key>
+	<dict>
+		<key>API_KEY</key>
+		<string>여기에 발급받은 api key를 입력해주세요</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>API_KEY</string>
+	</array>
 	<key>version</key>
-    <string>{{VERSION_INFO}}</string>
-    <key>webaddress</key>
-    <string>https://github.com/inchanS/AlfKoreanSearch.git</string>
+	<string>{{VERSION_INFO}}</string>
+	<key>webaddress</key>
+	<string>https://github.com/inchanS/alfkorean2search</string>
 </dict>
 </plist>
