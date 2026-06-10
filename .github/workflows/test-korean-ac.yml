@@ -1,0 +1,25 @@
+name: test-korean-ac
+
+on:
+  push:
+    tags:
+      - "v*"
+    branches:
+      - main
+  pull_request:
+    types: [opened, reopened]
+    paths:
+      - '**.py'
+
+jobs:
+  test-korean-ac-python3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+      - run: (cd workflow; python -m unittest test_workflow.MyTestCase; )

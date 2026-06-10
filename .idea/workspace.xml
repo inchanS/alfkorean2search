@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aba2f50e-3af8-48b7-abc9-c665ee14425f" name="변경" comment="doc: modify Readme.md">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alfred-pyworkflow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SCR-20260610-lszu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="267" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bb8cfb1a05a5e0083bf6efd957d24bc24b5bbfe8" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;inchanS&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1711114454" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="6155eab2-50ad-4a95-80c2-98286b5dc7bc" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/inchanS/AlfKoreanSearch.git&quot;,
+    &quot;accountId&quot;: &quot;6155eab2-50ad-4a95-80c2-98286b5dc7bc&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000378038611977" />
+      <entry key="S2" value="1.120229984202488" />
+      <entry key="S5" value="2.3059856668415666" />
+      <entry key="S10" value="6.194277813003311" />
+      <entry key="S30" value="24.20500644217476" />
+      <entry key="S60" value="44.48017889423219" />
+      <entry key="M2" value="69.52543806440865" />
+      <entry key="M5" value="104.36826411610872" />
+      <entry key="M10" value="126.2055863756385" />
+      <entry key="M15" value="135.9794253923309" />
+      <entry key="M30" value="147.67605623237677" />
+      <entry key="H1" value="154.4533299622963" />
+      <entry key="H2" value="158.1220859152882" />
+      <entry key="H4" value="160.03374623327366" />
+      <entry key="D1" value="161.66839689118112" />
+      <entry key="W1" value="161.9525313817819" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835394159957768" />
+      <entry key="S2" value="1.1157418772082697" />
+      <entry key="S5" value="2.302793960653472" />
+      <entry key="S10" value="6.190327636306358" />
+      <entry key="S30" value="24.200022553851284" />
+      <entry key="S60" value="44.47552542445389" />
+      <entry key="M2" value="69.52166032281524" />
+      <entry key="M5" value="104.3658208185417" />
+      <entry key="M10" value="126.2040251097628" />
+      <entry key="M15" value="135.97827434836168" />
+      <entry key="M30" value="147.67541120477694" />
+      <entry key="H1" value="154.45298646173222" />
+      <entry key="H2" value="158.12190836087913" />
+      <entry key="H4" value="160.0336559272538" />
+      <entry key="D1" value="161.66838162082087" />
+      <entry key="W1" value="161.9525291948353" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2e1j6sMK9TtYa7RDprUOIAo3Hhg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 테스트.test_workflow.MyTestCase.test_map의 Python 테스트.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/song-inchan/Code/codject/Alfred Workflow/AlfKorean2Search/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/workflow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workflow" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_workflow.MyTestCase.test_map" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="alfred-naversearch" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_workflow.MyTestCase.test_map&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_workflow.MyTestCase.test_map" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="aba2f50e-3af8-48b7-abc9-c665ee14425f" name="변경" comment="" />
+      <created>1711078806074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711078806074</updated>
+      <workItem from="1711078807194" duration="76000" />
+      <workItem from="1711080645162" duration="2478000" />
+      <workItem from="1711083325814" duration="2930000" />
+      <workItem from="1711086268593" duration="1233000" />
+      <workItem from="1711089369172" duration="1132000" />
+      <workItem from="1711100573143" duration="20395000" />
+      <workItem from="1711125780424" duration="303000" />
+      <workItem from="1711126353888" duration="48000" />
+      <workItem from="1711134617375" duration="125000" />
+      <workItem from="1711134910938" duration="994000" />
+      <workItem from="1711135948525" duration="148000" />
+      <workItem from="1711136234068" duration="16000" />
+      <workItem from="1711139409431" duration="338000" />
+      <workItem from="1711139821550" duration="329000" />
+      <workItem from="1711140234100" duration="244000" />
+      <workItem from="1711142516407" duration="66000" />
+      <workItem from="1711178174662" duration="1964000" />
+      <workItem from="1711181945718" duration="730000" />
+      <workItem from="1711182793287" duration="45000" />
+      <workItem from="1711205000424" duration="5642000" />
+      <workItem from="1711310920772" duration="2172000" />
+      <workItem from="1711315021663" duration="20000" />
+      <workItem from="1725744350798" duration="64000" />
+      <workItem from="1725744419501" duration="2556000" />
+      <workItem from="1729102476482" duration="260000" />
+      <workItem from="1729102743036" duration="8649000" />
+      <workItem from="1729121005793" duration="125000" />
+      <workItem from="1734715972910" duration="582000" />
+      <workItem from="1734716585754" duration="50000" />
+      <workItem from="1734716859571" duration="171000" />
+      <workItem from="1734852459898" duration="324000" />
+      <workItem from="1749240552914" duration="336000" />
+      <workItem from="1749241510500" duration="7000" />
+      <workItem from="1781063239570" duration="1357000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add original repository as submodule to preserve history">
+      <option name="closed" value="true" />
+      <created>1711083884832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711083884832</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: info.plist의 버전 정보를 git Action에 맞게 수정">
+      <option name="closed" value="true" />
+      <created>1711089513410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711089513410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: github auto release에 맞게 info.plist 수정&#10; - submodule의 url을 ssh주소에서 https 주소로 변경  &#10; - github Action으로 파일 생성시 파일명 수정">
+      <option name="closed" value="true" />
+      <created>1711107954222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711107954222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: .gitignore파일 수정 - IDE 파일 제거">
+      <option name="closed" value="true" />
+      <created>1711108741772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711108741772</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test: add test_naver_map, test_naver_map_with_ip">
+      <option name="closed" value="true" />
+      <created>1711121010074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711121010074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1711122825916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711122825916</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: naver_map.py파일 하나로 naver_map_with_ip.py의 기능 역시 수행하도록 리팩토링">
+      <option name="closed" value="true" />
+      <created>1711124507197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711124507197</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor: naver_map Address 변수 활용">
+      <option name="closed" value="true" />
+      <created>1711125537683</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125537683</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test: 이전 refactor에 맞춰 테스트 함수 수정">
+      <option name="closed" value="true" />
+      <created>1711126058686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711126058686</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor: os.environ.get 메소드를 os.getenv 메소드로 변경">
+      <option name="closed" value="true" />
+      <created>1711135862397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711135862397</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add .gitignore : prefs.plist">
+      <option name="closed" value="true" />
+      <created>1711135896353</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711135896353</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: Configure에서 사용자 값 입력시 Trim 기능 설정">
+      <option name="closed" value="true" />
+      <created>1711136090469</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711136090469</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: search naver finance(stock)">
+      <option name="closed" value="true" />
+      <created>1711139567054</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711139567054</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test: search naver finance(stock)">
+      <option name="closed" value="true" />
+      <created>1711139721921</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711139721921</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1711139980873</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711139980873</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1711140267652</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711140267652</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update .gitignore">
+      <option name="closed" value="true" />
+      <created>1711140463008</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711140463008</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: naver_finance.py API url">
+      <option name="closed" value="true" />
+      <created>1711142559377</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711142559377</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modify: 네이버 사전 호출키 변경">
+      <option name="closed" value="true" />
+      <created>1711181104468</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711181104468</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update README.md">
+      <option name="closed" value="true" />
+      <created>1711182576506</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711182576506</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update gif files">
+      <option name="closed" value="true" />
+      <created>1711182815972</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711182815972</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix: search_address.py-add_item title">
+      <option name="closed" value="true" />
+      <created>1711205771676</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711205771676</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add: naver_finance.py icon">
+      <option name="closed" value="true" />
+      <created>1711206176827</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711206176827</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: 이제 네이버 지도 검색시 place, address, bus의 타입 결과가 있을 때만 '해당 타입만 보기'가 상단에 나타납니다.">
+      <option name="closed" value="true" />
+      <created>1711209881520</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711209881520</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: 이제 네이버 지도 검색시 place, address, bus의 타입 결과가 있을 때만 '해당 타입만 보기'가 상단에 나타납니다.">
+      <option name="closed" value="true" />
+      <created>1711209934633</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711209934633</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: 장소,주소,버스 전용보기에서 되돌아가기 기능 추가 및 세부 스크립트 통합">
+      <option name="closed" value="true" />
+      <created>1711227681427</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711227681427</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix: info.plist">
+      <option name="closed" value="true" />
+      <created>1711227804402</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711227804402</updated>
+    </task>
+    <task id="LOCAL-00028" summary=".gitignore: add prefs.plist">
+      <option name="closed" value="true" />
+      <created>1711228075942</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1711228075942</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix: Call External setting">
+      <option name="closed" value="true" />
+      <created>1711313394100</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711313394100</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix: 네이버 지도검색시 오류 수정&#10; - web.get의 headers값에 Referer 추가&#10; - 위치정보값이 없을 경우 기본값으로 설정한'서울시청'좌표값 수정">
+      <option name="closed" value="true" />
+      <created>1725747772540</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1725747772540</updated>
+    </task>
+    <task id="LOCAL-00031" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1729108765455</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1729108765455</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix: test_workflow.py">
+      <option name="closed" value="true" />
+      <created>1729109530053</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729109530053</updated>
+    </task>
+    <task id="LOCAL-00033" summary="modify: README.md">
+      <option name="closed" value="true" />
+      <created>1729109547232</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729109547232</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix: test_workflow.py">
+      <option name="closed" value="true" />
+      <created>1729109815365</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729109815365</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix: test_workflow.py">
+      <option name="closed" value="true" />
+      <created>1729110085369</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110085369</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix: test_workflow.py">
+      <option name="closed" value="true" />
+      <created>1729110534265</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110534265</updated>
+    </task>
+    <task id="LOCAL-00037" summary="modify: README.md">
+      <option name="closed" value="true" />
+      <created>1729110628647</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110628647</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add: icon">
+      <option name="closed" value="true" />
+      <created>1729111650926</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111650926</updated>
+    </task>
+    <task id="LOCAL-00039" summary="modify: Copyright annotation">
+      <option name="closed" value="true" />
+      <created>1729121072372</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1729121072372</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix: 검색창 제목 설명문구 수정">
+      <option name="closed" value="true" />
+      <created>1734716390179</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1734716390179</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add: bundleId&#10; 워크플로우 업데이트시, 기존 워크플로우와 별개로 새로 설치되는 문제 해결.">
+      <option name="closed" value="true" />
+      <created>1734716982638</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1734716982638</updated>
+    </task>
+    <task id="LOCAL-00042" summary="doc: modify Readme.md">
+      <option name="closed" value="true" />
+      <created>1734852766628</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1734852766628</updated>
+    </task>
+    <task id="LOCAL-00043" summary="doc: modify Readme.md">
+      <option name="closed" value="true" />
+      <created>1749240851848</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1749240851848</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .gitignore : prefs.plist" />
+    <MESSAGE value="fix: Configure에서 사용자 값 입력시 Trim 기능 설정" />
+    <MESSAGE value="feat: search naver finance(stock)" />
+    <MESSAGE value="test: search naver finance(stock)" />
+    <MESSAGE value="update .gitignore" />
+    <MESSAGE value="fix: naver_finance.py API url" />
+    <MESSAGE value="modify: 네이버 사전 호출키 변경" />
+    <MESSAGE value="update README.md" />
+    <MESSAGE value="update gif files" />
+    <MESSAGE value="fix: search_address.py-add_item title" />
+    <MESSAGE value="add: naver_finance.py icon" />
+    <MESSAGE value="feat: 이제 네이버 지도 검색시 place, address, bus의 타입 결과가 있을 때만 '해당 타입만 보기'가 상단에 나타납니다." />
+    <MESSAGE value="feat: 장소,주소,버스 전용보기에서 되돌아가기 기능 추가 및 세부 스크립트 통합" />
+    <MESSAGE value="fix: info.plist" />
+    <MESSAGE value=".gitignore: add prefs.plist" />
+    <MESSAGE value="fix: Call External setting" />
+    <MESSAGE value="fix: 네이버 지도검색시 오류 수정&#10; - web.get의 headers값에 Referer 추가&#10; - 위치정보값이 없을 경우 기본값으로 설정한'서울시청'좌표값 수정" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="fix: test_workflow.py" />
+    <MESSAGE value="modify: README.md" />
+    <MESSAGE value="add: icon" />
+    <MESSAGE value="modify: Copyright annotation" />
+    <MESSAGE value="fix: 검색창 제목 설명문구 수정" />
+    <MESSAGE value="add: bundleId&#10; 워크플로우 업데이트시, 기존 워크플로우와 별개로 새로 설치되는 문제 해결." />
+    <MESSAGE value="doc: modify Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc: modify Readme.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AlfNaverSearchPlus$.coverage" NAME=" 커버리지 결과" MODIFIED="1711111447265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/workflow" />
+  </component>
+</project>
