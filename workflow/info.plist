@@ -81,7 +81,7 @@
 				<key>runningsubtext</key>
 				<string>Running</string>
 				<key>script</key>
-				<string>/usr/bin/env python3 korean_search.py "{query}" </string>
+				<string>bash ./run search "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>

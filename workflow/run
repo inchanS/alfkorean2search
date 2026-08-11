@@ -1,0 +1,11 @@
+#!/bin/bash
+# Script Filter entry point. Runs before the universal binary to:
+#   1. ensure the binary is executable (in case the +x bit was lost on
+#      unzip/import), and
+#   2. strip the download quarantine, so an un-notarized binary launches
+#      without a Gatekeeper prompt.
+# Then it execs the binary with the given handler + arguments.
+d="$(cd "$(dirname "$0")" && pwd)"
+chmod +x "$d/koreansearch" 2>/dev/null
+xattr -dr com.apple.quarantine "$d/koreansearch" 2>/dev/null
+exec "$d/koreansearch" "$@"

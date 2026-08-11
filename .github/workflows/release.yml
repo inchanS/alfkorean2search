@@ -1,3 +1,6 @@
+# Build and release the Alfred workflow on tag push.
+# Runs on macOS because packaging needs lipo (universal binary) and codesign.
+
 name: "tagged-release"
 
 on:
@@ -8,15 +11,18 @@ on:
 jobs:
   tagged-release:
     name: "Tagged Release"
-    runs-on: "ubuntu-latest"
+    runs-on: "macos-latest"
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
 
-      - name: Build
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Build & package
         run: /bin/sh ./make.sh
 
       - uses: "marvinpinto/action-automatic-releases@latest"
