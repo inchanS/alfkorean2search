@@ -158,15 +158,22 @@ func fetchLatest() (info, error) {
 	}, nil
 }
 
-// Install downloads the known .alfredworkflow asset and opens it so Alfred
+// Install downloads the latest .alfredworkflow asset and opens it so Alfred
 // installs the update. Invoked when the query equals Magic.
+//
+// This is an explicit user action, so it fetches the true latest release now
+// rather than trusting the cached info: the background check runs only weekly,
+// so the cache can point at an older release than what is currently published
+// (and installing it would be a downgrade). The cache is used only as an
+// offline fallback when the fresh fetch fails.
 func Install(fb *alfred.Feedback) {
-	inf, ok := readInfo()
-	if !ok || inf.URL == "" {
-		if fresh, err := fetchLatest(); err == nil {
-			inf = fresh
-			writeInfo(inf)
+	inf, err := fetchLatest()
+	if err != nil {
+		if cached, ok := readInfo(); ok {
+			inf = cached
 		}
+	} else {
+		writeInfo(inf)
 	}
 	if inf.URL == "" {
 		fb.Add(alfred.ItemOpts{Title: "설치할 업데이트가 없습니다", Valid: false})
