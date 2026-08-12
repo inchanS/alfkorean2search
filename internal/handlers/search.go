@@ -26,12 +26,14 @@ const (
 	generalSearchURL = "https://stdict.korean.go.kr/search/searchResult.do?pageSize=10&searchKeyword=%s"
 	// viewURL is synthesized as a detail link when the API omits "link".
 	viewURL        = "https://stdict.korean.go.kr/search/searchView.do?word_no=%s&searchKeywordTo=3"
-	searchCacheAge = time.Hour
+	searchCacheAge = 24 * time.Hour
 
 	// cachePrefix keys every per-query entry; pruneStampKey (a distinct, fixed
 	// key not sharing that prefix) gates how often stale entries are swept.
 	cachePrefix   = "stdict"
 	pruneStampKey = "__stdict_prune"
+	// pruneInterval bounds how often the stale-entry sweep runs (once a day).
+	pruneInterval = 24 * time.Hour
 )
 
 // suggestion is one display row: a word (with homograph number), its
@@ -120,12 +122,12 @@ func search(fb *alfred.Feedback, word string) error {
 }
 
 // maybePruneCache sweeps stale per-query cache entries at most once per
-// searchCacheAge. Alfred spawns this binary on every keystroke, so the sweep is
+// pruneInterval. Alfred spawns this binary on every keystroke, so the sweep is
 // gated by a stamp file to avoid a directory scan on each run: only the first
 // search after the stamp goes stale performs the (cheap) prune. Without it, each
 // distinct query would leave a stdict_<md5>.json behind forever.
 func maybePruneCache() {
-	if _, fresh := cache.Read(pruneStampKey, searchCacheAge); fresh {
+	if _, fresh := cache.Read(pruneStampKey, pruneInterval); fresh {
 		return
 	}
 	_ = cache.Write(pruneStampKey, []byte(time.Now().Format(time.RFC3339)))
