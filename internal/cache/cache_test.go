@@ -2,6 +2,7 @@ package cache
 
 import (
 	"os"
+	"path/filepath"
 	"testing"
 	"time"
 )
@@ -44,6 +45,55 @@ func TestReadWriteFreshness(t *testing.T) {
 	// Missing key -> miss.
 	if _, ok := Read("nope", time.Hour); ok {
 		t.Fatal("missing key should miss")
+	}
+}
+
+func TestPrune(t *testing.T) {
+	t.Setenv("alfred_workflow_cache", t.TempDir())
+
+	// Two per-query entries: one fresh, one stale.
+	fresh := Key("stdict", "fresh")
+	stale := Key("stdict", "stale")
+	if err := Write(fresh, []byte("f")); err != nil {
+		t.Fatal(err)
+	}
+	if err := Write(stale, []byte("s")); err != nil {
+		t.Fatal(err)
+	}
+	old := time.Now().Add(-2 * time.Hour)
+	if err := os.Chtimes(path(stale), old, old); err != nil {
+		t.Fatal(err)
+	}
+
+	// A fixed-key entry under a different prefix, even though it is old, must
+	// survive: Prune only touches files carrying the requested prefix.
+	if err := Write("__update_info", []byte("keep")); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.Chtimes(path("__update_info"), old, old); err != nil {
+		t.Fatal(err)
+	}
+
+	if err := Prune("stdict", time.Hour); err != nil {
+		t.Fatal(err)
+	}
+
+	if _, err := os.Stat(path(stale)); !os.IsNotExist(err) {
+		t.Fatalf("stale stdict entry should have been removed, stat err=%v", err)
+	}
+	if _, ok := Read(fresh, time.Hour); !ok {
+		t.Fatal("fresh stdict entry should survive prune")
+	}
+	if _, ok := Read("__update_info", 0); !ok {
+		t.Fatal("entry under a different prefix must survive prune")
+	}
+}
+
+func TestPruneMissingDir(t *testing.T) {
+	// A cache directory that was never created is not an error.
+	t.Setenv("alfred_workflow_cache", filepath.Join(t.TempDir(), "does-not-exist"))
+	if err := Prune("stdict", time.Hour); err != nil {
+		t.Fatalf("Prune on missing dir = %v", err)
 	}
 }
 
